@@ -21,7 +21,7 @@ export default function Home({ results }) {
 			<Nav />
 
 			{/* Results */}
-			<Results requests={results} />
+			<Results results={results} />
 		</>
 	);
 }
